@@ -1,0 +1,14 @@
+.notfound {
+    padding: 5rem 0;
+}
+.not_found-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.not_found-items img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
