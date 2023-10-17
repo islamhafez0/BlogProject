@@ -135,7 +135,7 @@ const SignupLayout = () => {
         Home
       </Link>
       <Link to="/login" className="mt-3">
-        Already have account?
+        Already have an account?
       </Link>
     </Card>
   );

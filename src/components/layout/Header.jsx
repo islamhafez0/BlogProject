@@ -43,7 +43,7 @@ const Header = () => {
             ) : (
               <>
                 <NavigationLink title="Login" slug="/login" end />
-                <NavigationLink title="signup" slug="/signup" end />
+                <NavigationLink title="Signup" slug="/signup" end />
               </>
             )}
           </Nav>

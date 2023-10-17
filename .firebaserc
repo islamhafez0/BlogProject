@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "production": "blog-demo-d01c4",
+    "default": "blog-demo-d01c4"
+  },
+  "targets": {},
+  "etags": {}
+}

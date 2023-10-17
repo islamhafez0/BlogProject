@@ -115,7 +115,7 @@ const MainNewpost = ({ username }) => {
                 value={body}
                 onChange={setBody}
               ></ReactQuill>
-              <Form.Group className="mb-3" controlId="formLanguage">
+              <Form.Group className="mt-3 mb-3" controlId="formLanguage">
                 <Form.Label>Language</Form.Label>
                 <Form.Control
                   as="select"
