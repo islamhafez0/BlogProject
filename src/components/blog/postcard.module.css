@@ -1,26 +1,42 @@
 .postcard_img {
-    position: relative;
+  position: relative;
 }
 .postcard_img img {
-    aspect-ratio: 1.5 / 1;
-    object-fit: cover;
+  aspect-ratio: 1.5 / 1;
+  object-fit: cover;
 }
 .postcard_img_info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
 }
 .card_link {
-    color: #444;
-    text-decoration: none;
+  color: #444;
+  text-decoration: none;
 }
 .card_link:hover {
-    opacity: 0.9;
+  opacity: 0.9;
+}
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+.postCard {
+  height: 300px !important;
+  overflow: hidden;
+}
+.card_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

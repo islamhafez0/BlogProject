@@ -41,4 +41,11 @@ main {
   .form_card {
     min-width: 450px;
   }
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .navbar-nav {
+  }
 }

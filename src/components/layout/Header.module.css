@@ -1,19 +1,20 @@
 .header {
-    width: 100%;
-    background-color: red;
+  width: 100%;
+  background-color: red;
 }
 .header :global(.navbar-brand) img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
 }
 .navLink {
-    color: #dbdbdb;
-    text-decoration: none;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
 }
 .navLink:hover {
-    color: #fff;
+  color: #fff;
 }
 .navLink:global(.active) {
-    color: #fff;
+  color: #fff;
 }

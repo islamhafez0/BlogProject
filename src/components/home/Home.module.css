@@ -1,5 +1,8 @@
 .home_logo {
-    height: 6rem;
-    width: 6rem;
-    object-fit: cover;
+  height: 6rem;
+  width: 6rem;
+  object-fit: cover;
+}
+.bold {
+  font-weight: bold;
 }

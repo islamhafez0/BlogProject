@@ -1,5 +1,24 @@
+.article_hero {
+  width: 100%;
+  height: 300px;
+}
 .article_hero img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+.opacity_layer {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, #04152d 79.17%);
 }
