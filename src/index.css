@@ -15,7 +15,9 @@ code {
 main {
   min-height: calc(100vh - 122px);
 }
-
+img {
+  max-width: 100%;
+}
 .not_found {
   padding: 5rem 0;
   opacity: 0.75;
